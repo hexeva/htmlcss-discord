@@ -19,9 +19,7 @@ img{
 .container{
     width: 80%;
     margin: auto;
-    /* TEST */
-    height: 500px;
-    background-color: aqua;
+    
 }
 
 .clearfix::after{
@@ -31,9 +29,7 @@ img{
 }
 .col{
     float: left;
-    /* TEST */
-    height: 200px;
-    background-color: brown;
+   
 }
 
 /* END COMMON */
@@ -43,8 +39,42 @@ img{
 
 header{
     background-color: #3061e0;
-    /* TEST */
-    height: 500px;
+    color: white;
+    height: 80px;
 
 }
+
+nav{
+    line-height:80px;
+}
+
+.side-col{
+    width: 10%;
+
+}
+
+.central-col{
+    width: 80%;
+}
+
+.side-col img{
+    vertical-align: middle;
+}
+/* links menu */
+.top-links{
+    list-style-type: none;
+    text-align: center;
+}
+
+.top-links li{
+    display: inline-block;
+    margin: 0 30px;
+    
+}
+
+.top-links a{
+    text-decoration: none;
+    color: white;
+}
+
 /* END HEADER */
