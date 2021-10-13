@@ -163,14 +163,14 @@ nav{
 /* MAIN SECTION */
 
 .img-col{
-    width: 72%;
+    width: 65%;
+    padding: 0 70px;
    
-    
 }
 
 .text-col{
-    width: 28%;
-    padding: 20px 10px;
+    width: 35%;
+    padding: 38px 10px;
     
 }
 
