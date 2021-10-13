@@ -81,6 +81,13 @@ nav{
     text-align: right;
 }
 
+.main-header{
+    /* test */
+    
+    height: 200px;
+
+}
+
 /* END HEADER */
 
 
@@ -88,13 +95,32 @@ nav{
 
 .button{
     text-decoration: none;
+    line-height: normal;
+    display: inline-block;
 
 }
 
 .small-b{
-    background-color: white;
-    color: black;
+    
     font-size: 12px;
     padding:8px 10px;
     border-radius: 20px;
+}
+
+.white-b{
+    background-color: white;
+    color: black;
+}
+
+
+/* end buttons */
+
+
+.jumbotrone{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* test */
+    height: 500px;
+
 }
