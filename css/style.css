@@ -32,6 +32,17 @@ img{
    
 }
 
+.title{
+    
+    font-size: 50px;
+   margin-bottom: 30px;
+}
+
+.text{
+    font-size: 18px;
+    line-height: 30px;
+}
+
 /* END COMMON */
 
 
@@ -81,12 +92,7 @@ nav{
     text-align: right;
 }
 
-.main-header{
-    /* test */
-    
-    height: 200px;
 
-}
 
 /* END HEADER */
 
@@ -98,6 +104,12 @@ nav{
     line-height: normal;
     display: inline-block;
 
+}
+
+.big-b{
+    font-size: 18px;
+    padding: 14px 26px;
+    border-radius: 25px;
 }
 
 .small-b{
@@ -112,8 +124,14 @@ nav{
     color: black;
 }
 
+.black-b{
+    background-color: #23272a;
+    color:white;
+}
+
 
 /* end buttons */
+
 
 /* jumbotrone */
 
@@ -132,13 +150,11 @@ nav{
     text-align: center;
 }
 
-h1{
-    
-    font-size: 50px;
-   margin-bottom: 30px;
+.j-button{
+    margin: 20px 0;
 }
 
-.j-content p{
-    font-size: 18px;
-    line-height: 30px;
+.j-button a{
+    margin: 0 20px;
 }
+
