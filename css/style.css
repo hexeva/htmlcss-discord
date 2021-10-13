@@ -16,4 +16,35 @@ img{
     width: 100%;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    /* TEST */
+    height: 500px;
+    background-color: aqua;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.col{
+    float: left;
+    /* TEST */
+    height: 200px;
+    background-color: brown;
+}
+
 /* END COMMON */
+
+
+/* HEADER */
+
+header{
+    background-color: #3061e0;
+    /* TEST */
+    height: 500px;
+
+}
+/* END HEADER */
