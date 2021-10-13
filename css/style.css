@@ -51,11 +51,12 @@ img{
 header{
     background-color: #3061e0;
     color: white;
-    height: 80px;
+    
 
 }
 
 nav{
+    height: 80px;
     line-height:80px;
 }
 
@@ -157,4 +158,27 @@ nav{
 .j-button a{
     margin: 0 20px;
 }
+
+
+/* MAIN SECTION */
+
+.img-col{
+    width: 72%;
+   
+    
+}
+
+.text-col{
+    width: 28%;
+    padding: 20px 10px;
+    
+}
+
+section{
+    margin: 70px 0;
+}
+
+
+
+
 
