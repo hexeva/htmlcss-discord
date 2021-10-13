@@ -164,18 +164,31 @@ nav{
 
 .img-col{
     width: 65%;
-    padding: 0 70px;
+    padding: 0 50px;
    
 }
 
 .text-col{
     width: 35%;
-    padding: 38px 10px;
+    padding: 38px 40px;
     
 }
 
 section{
     margin: 70px 0;
+}
+
+.grey{
+    background-color: #f6f6f6;
+}
+
+/* section bottom */
+
+.s-content{
+    text-align: center;
+}
+.s-content p{
+    padding: 0 100px;
 }
 
 
