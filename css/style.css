@@ -77,4 +77,24 @@ nav{
     color: white;
 }
 
+.login {
+    text-align: right;
+}
+
 /* END HEADER */
+
+
+/* BUTTONS */
+
+.button{
+    text-decoration: none;
+
+}
+
+.small-b{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding:8px 10px;
+    border-radius: 20px;
+}
